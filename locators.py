@@ -16,8 +16,9 @@ password = fake.password()
 random_ids = random.sample(range(1, 15), 3)
 country = fake.country()
 city = fake.city()
-month = datetime.now().month
-year = datetime.now().year + 5
+rndint = fake.pyint(1, 12)
+month = rndint
+year = datetime.now().year + rndint
 product_list = []
 total = 0
 deleted_item_price = 0
@@ -25,4 +26,5 @@ cart_total = 0
 new_cart_total = 0
 order_total = 0
 
+print(full_name, credit_card_number, username, password, random_ids, country, city, month, rndint, year)
 # -------------------------------------------------
