@@ -8,21 +8,18 @@ To create automated test to test basic business critical functionality of an eCo
 # Technology Stack
 
 ### Application Environment
-(where tests are developed)
 https://www.demoblaze.com/
 
 ### Automation Environment
-(Tools, Technologies Used to develop automated tests)
-
-- ➡**IDE:** PyCharm
-- ➡**Automation Framework:** Selenium Webdriver
-- ➡**Language:** Python 3.9
-- ➡**Browser:** Chrome
-- ➡**Source Control:** Git/GitHub
-- ➡**Data:** Python Faker library, v 11.3
+- **IDE:** PyCharm :arrow
+- **Automation Framework:** Selenium Webdriver
+- **Language:** Python 3.9
+- **Browser:** Chrome
+- **Source Control:** Git/GitHub :octocat:
+- **Data:** Python Faker library, v 11.3
 
 ### Execution Environment
-Jenkins on AWS EC2 Linix instance with SSH-Key based secure connection to GitHub repository to pull and run the selenium scripts
+Jenkins on AWS EC2 Linix instance with SSH-Key based secure connection to GitHub 
 
 
 ### Project Management
