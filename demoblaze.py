@@ -74,9 +74,9 @@ def checkout_cart():
             sleep(0.25)
 
         # validate cart total
-        cart_total = int(driver.find_element(By.ID, 'totalp').text)
-        print(f'{hr}Validate Cart Total:\nExpected cart total: {locators.total}, Actual cart total: {cart_total} ')
-        assert cart_total == locators.total
+        locators.cart_total = int(driver.find_element(By.ID, 'totalp').text)
+        print(f'{hr}Validate Cart Total:\nExpected cart total: {locators.total}, Actual cart total: {locators.cart_total} ')
+        assert locators.cart_total == locators.total
 
         #driver.find_element(By.LINK_TEXT, 'Delete').click()
         # delete second item from the cart
