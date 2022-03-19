@@ -176,10 +176,10 @@ def log_out():
     sleep(0.25)
 
 
-setUp()
-sign_up()
-log_in()
-checkout_cart()
-log_out()
-tearDown()
+# setUp()
+# sign_up()
+# log_in()
+# checkout_cart()
+# log_out()
+# tearDown()
 
