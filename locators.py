@@ -26,5 +26,5 @@ cart_total = 0
 new_cart_total = 0
 order_total = 0
 
-print(full_name, credit_card_number, username, password, random_ids, country, city, month, rndint, year)
+# print(full_name, credit_card_number, username, password, random_ids, country, city, month, rndint, year)
 # -------------------------------------------------
