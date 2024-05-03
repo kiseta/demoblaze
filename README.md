@@ -1,5 +1,5 @@
 # demoblaze
-Demoblaze is a demo eCommerce web applicatio by Blazemeter
+Demoblaze is a demo eCommerce web application by Blazemeter
 # Project info
 
 ## Purpose
@@ -11,7 +11,7 @@ To create automated test to test basic business critical functionality of an eCo
 https://www.demoblaze.com/
 
 ### Automation Environment
-- **IDE:** PyCharm :arrow
+- **IDE:** PyCharm :arrow:
 - **Automation Framework:** Selenium Webdriver
 - **Language:** Python 3.9
 - **Browser:** Chrome
